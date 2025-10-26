@@ -17,7 +17,7 @@ STM32G431CB	STM32 board with compact dimensions
 
 Press the alarm button
 
-12 x 1 Watt red LEDs flash at a frequency of 25 Hz
+12 x 1 Watt red LEDs flash at a frequency of 25 Hz (while sending SMS the LEDs keep on burning, after sending it flashes)
 
 Extremely powerful alarm signal (120dB)
 
