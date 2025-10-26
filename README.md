@@ -36,3 +36,24 @@ A text message is sent to the number in position 6.
 The LEDs light for 1 second.
 
 The buzzer activates for 1 second.
+
+# Usage
+
+Fully programmable by sending an SMS to the module.
+
+The module has 7 programmable positions.
+
+All positions have a maximum length of 50 characters.
+
+The module can only be programmed if PRGM_EN (PA1) is FALSE.
+
+After programming disconnect PA1 from GND
+
+
+
+
+
+
+
+
+The buzzer activates for 1 second.
