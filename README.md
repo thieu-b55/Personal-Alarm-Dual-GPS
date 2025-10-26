@@ -21,7 +21,7 @@ Press the alarm button
 
 Extremely powerful alarm signal (120dB)
 
-The buzzer is disabled in the program using "//" (line 145). To avoid hearing damage, 	it is recommended to only activate it once everything has been tested and is ready for 	use.
+The buzzer is disabled in the program using "//" (line 145). To avoid hearing damage, it is recommended to only activate it once everything has been tested and is ready for 	use.
 
 SMS to a maximum of 5 mobile numbers with a pre-programmed text followed by the current location
 
