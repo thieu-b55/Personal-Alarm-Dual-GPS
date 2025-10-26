@@ -1,21 +1,38 @@
 # Personal-Alarm-Dual-GPS
 
-Built with
+# Warning: The volume of the buzzer may cause hearing damage.
 
-SIM A7670E 4G successor to the well-known 2G SIM800 modules with built-in GNSS receiver
+# Built with
 
-The "E" after 7670 indicates the continent; for continents other than Europe, please consult the manual
+SIM A7670E 		4G successor to the well-known 2G SIM800 modules with a built-in GNSS receiver.
 
-SAM M-10Q Ublox GNSS module
+The "E" after 7670 indicates the continent. For countries other than Europe, please consult the manual.
 
-STM32G431CB STM32 board with compact dimensions
+SAM M-10Q		Ublox GNSS module
+
+STM32G431CB	STM32 board with compact dimensions
 
 
-When activated:
+# Activate alarm
 
-12 x 1-watt red LEDs flash at a frequency of 25 Hz
+Press the alarm button
 
-Extremely powerful alarm signal (120 dB)
-The buzzer is disabled in the program using "//" (line 135). To avoid hearing damage, it is recommended to only activate this when everything has been tested and is ready for use.
+12 x 1 Watt red LEDs flash at a frequency of 25 Hz
+
+Extremely powerful alarm signal (120dB)
+
+The buzzer is disabled in the program using "//" (line 145). To avoid hearing damage, 	it is recommended to only activate it once everything has been tested and is ready for 	use.
 
 SMS to a maximum of 5 mobile numbers with a pre-programmed text followed by the current location
+
+# Test
+
+First press the test button, followed by the alarm button.
+
+Then release the alarm button first, and then the test button.
+
+A text message is sent to the number in position 6.
+
+The LEDs light for 1 second.
+
+The buzzer activates for 1 second.
