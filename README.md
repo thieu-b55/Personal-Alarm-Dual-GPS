@@ -50,10 +50,80 @@ The module can only be programmed if PRGM_EN (PA1) is FALSE.
 After programming disconnect PA1 from GND
 
 
+# Positions 1 through 5
+
+Enter here the number of the contacts that should be notified with an SMS
+
+Send an SMS in the format
+
+#1 +32123456789#
+
+SMS starts and ends with a #
+
+After the first #, enter the number of the position to be programmed. If it is already programmed, the contents will be erased and overwritten.
+
+Blank
+
+Contact number in international format
+
+SMS ends with a #
+
+Response module via SMS to the number that sent the SMS
+
+pos : 1   tel : +32123456789
+
+# Position 6
+
+Enter your mobile phone number here.
+
+During testing, a text message will be sent to this number.
+
+#6 +32987654321#
+
+Response module via SMS to the number that sent the SMS
+
+pos : 6   tel : +32987654321
+
+
+# Position 7
+
+Enter the pre-programmed text here that will be sent via SMS
+
+For teenagers in dire need of money, the message might look like this:
+
+#7 NO MONEY…BRING 100€ URGENTLY#
+
+Response module via SMS to the number that sent the SMS
+
+pos : 7   txt :  NO MONEY…BRING 100€ URGENTLY
+
+
+#  #LIST#
+
+module responds with
+
+pos : 1  tel: +32123456789
+
+pos : 2  tel: +32123456789
+
+pos : 3  tel: +32123456789
+
+…
+
+pos : 7 txt: NO MONEY…BRING 100€ URGENTLY
+
+
+#  #5 DEL#
+removes position 5
+
+Answer module
+
+pos 5 : deleted
 
 
 
 
 
 
-The buzzer activates for 1 second.
+
+
