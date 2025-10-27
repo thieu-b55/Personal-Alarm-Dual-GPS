@@ -1,5 +1,7 @@
 # Personal-Alarm-Dual-GPS
 
+27/10/2025 Program and .bin additional error checking when reading GPS data A7670
+
 # Warning: The volume of the buzzer may cause hearing damage.
 
 # Built with
